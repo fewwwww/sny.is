@@ -18,12 +18,6 @@
          }
       </style>
       <script type = "text/javascript">
-         const hours = new Date().getHours()
-         const isDayTime = hours > 6 && hours < 20
-         if (isDayTime) {
-            document.getElementsByTagName('html').style.filter = 'invert()';
-         }
-         
          const redirect = () => {
                window.location = "https://suningyao.com";
                console.log('...redirecting to suningyao.com...')
