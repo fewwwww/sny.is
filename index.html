@@ -1,41 +1,22 @@
-<html>
-   <head>
-      <title>web dev & more... | Suning Yao</title>
-      <meta name="title" content="web dev & more... | Suning Yao">
-      <meta name="description" content="This site will redirect you to suningyao.com which is Suning Yao's portfolio website.">
-      <meta name="robots" content="index, follow">
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-      <meta name="language" content="English">
-      <meta name="revisit-after" content="1 day">
-      <meta name="author" content="Suning Yao">
-      <style>
-         html {
-            background-color: antiquewhite;
-         }
-         img {
-            position: relative;
-            width: 60vw;
-            top: 15vh;
-            left: 20vw;
-         }
-         
-         @media screen and (max-width: 1024px) {
-            img {
-               top: 25vh;
-            }
-         }
-      </style>
-      <script type = "text/javascript">
-         const redirect = () => {
-               window.location = "https://suningyao.com";
-               console.log('...redirecting to suningyao.com...')
-         }
-         setTimeout(() => {
-            redirect()
-         }, 1500)
-      </script>
-   </head>
-   <body>
-      <img src='ascii.png' alt="redirecting to suningyao.com"/>
-   </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>姚溯宁 / Suning Yao</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/suning-yao.jpg" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <img src="./img/suning-yao.jpg" alt="Suning Yao 姚溯宁">
+        <h1>姚溯宁 / Suning Yao</h1>
+        <p>关于我的一些...链接 / Links about me</p>
+        <ul>
+        </ul>
+    </main>
+    <!-- use instant.page to preload stuff and make site faster -->
+    <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+    <script src="./script.js"></script>
+</body>
 </html>
