@@ -1,14 +1,14 @@
 const links = {
-    '官网 / Portfolio': 'https://suningyao.com',
+    '官网 / Official': 'https://suningyao.com',
     '简历 / Resume': 'https://resume.suningyao.com/',
-    '博客 / Blogs in CN': 'https://blog.suningyao.com',
-    '研究 / Research (90%)': 'https://foresightventures.medium.com',
-    '音乐 / Music by me': 'https://music.suningyao.com',
+    '博客 / Blogs': 'https://blog.suningyao.com',
+    '研究 / Research': 'https://mirror.xyz/msfew.eth',
+    '音乐 / Music': 'https://music.suningyao.com',
     '推特 / Twitter': 'https://twitter.com/msfew_eth',
-    '开发 / Github': 'https://github.com/fewwwww',
+    '开发 / GitHub': 'https://github.com/fewwwww',
     '领英 / Linkedin': 'https://www.linkedin.com/in/suning-yao/',
     '邮箱 / Email': 'mailto:yaosuning@gmail.com',
-    '微信 / WeChat': 'https://fewwwww.github.io/wechat-addme/',
+    '微信 / WeChat': 'https://fewwwww.github.io/WeChat-AddMe/',
 }
 
 const ulDOM = document.getElementsByTagName('ul')[0]

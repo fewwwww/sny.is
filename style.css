@@ -116,6 +116,7 @@ ul {
 li {
   width: 50vw;
   max-width: 600px;
+  min-width: 300px;
   border: 1px solid black;
   margin-top: 15px;
   padding: 10px 0;
