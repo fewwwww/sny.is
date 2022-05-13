@@ -16,6 +16,8 @@ const ulDOM = document.getElementsByTagName('ul')[0]
 const switchColorMode = () => {
     if(!(new Date().getHours() > 6 && new Date().getHours() < 20)) {
         document.getElementsByTagName('html')[0].style.filter = 'invert(1)'
+        // otherwise, will be looking like laser
+        document.getElementsByTagName('img')[0].style.filter = 'invert(1)'
     }
 }
 
