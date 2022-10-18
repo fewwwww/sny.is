@@ -13,23 +13,32 @@ const links = {
 
 const ulDOM = document.getElementsByTagName('ul')[0]
 
-const switchColorMode = () => {
-    if(!(new Date().getHours() > 6 && new Date().getHours() < 20)) {
-        document.getElementsByTagName('html')[0].style.filter = 'invert(1)'
-        // otherwise, will be looking like laser
-        document.getElementsByTagName('img')[0].style.filter = 'invert(1)'
-    }
-}
+// CHANGE: removed the dark color theme, just the remaining cute one
+// const switchColorMode = () => {
+//     if(!(new Date().getHours() > 6 && new Date().getHours() < 20)) {
+//         document.getElementsByTagName('html')[0].style.filter = 'invert(1)'
+//         // otherwise, will be looking like laser
+//         document.getElementsByTagName('img')[0].style.filter = 'invert(1)'
+//     }
+// }
 
-switchColorMode()
+// switchColorMode()
 
 document.addEventListener('DOMContentLoaded', function () {
+    // contradict to <ul> lol, but whatever
+    let keyIndex = 0
     for (let key in links) {
         const aDOM = document.createElement('a')
         const liDOM = document.createElement('li')
         liDOM.innerText = key
+        if (keyIndex % 2 === 0) {
+            liDOM.style.backgroundColor = '#F0FFFF'
+        } else {
+            liDOM.style.backgroundColor = '#FFF0FF'
+        }
         aDOM.appendChild(liDOM)
         aDOM.href = links[key]
         ulDOM.appendChild(aDOM)
+        keyIndex++
     }
 });
