@@ -3,7 +3,7 @@ const links = {
     '简历 / Resume': 'https://resume.suningyao.com/',
     '博客 / Blogs': 'https://blog.suningyao.com',
     '研究 / Research': 'https://mirror.xyz/msfew.eth',
-    '音乐 / Music': 'https://music.suningyao.com',
+    '音乐 / Music': 'https://blog.suningyao.com/docs/Music/liked/',
     '推特 / Twitter': 'https://twitter.com/msfew_eth',
     '开发 / GitHub': 'https://github.com/fewwwww',
     '领英 / Linkedin': 'https://www.linkedin.com/in/suning-yao/',
