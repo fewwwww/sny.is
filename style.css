@@ -126,7 +126,7 @@ li {
 
 li:hover {
   cursor: pointer;
-  border: 2px double black;
+  border: 2px solid black;
 }
 
 a {
