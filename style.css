@@ -7,6 +7,8 @@
 *::after {
   box-sizing: border-box;
   font-family: 'Space Mono', monospace;
+  /* no text selection */
+  user-select: none;
 }
 
 /* remove default margin */
@@ -18,7 +20,7 @@
 html,
 body {
   height: 100%;
-  background-color: #FFFFF0;
+  background-color: #fffff0;
 }
 
 /* add accessible line-height and improve text rendering */
@@ -117,7 +119,7 @@ li {
   width: 50vw;
   max-width: 600px;
   min-width: 300px;
-  border: 2px solid #F0F0F0;
+  border: 2px solid #f0f0f0;
   margin-top: 15px;
   padding: 10px 0;
   border-radius: 10px;
