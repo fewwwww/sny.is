@@ -42,3 +42,5 @@ document.addEventListener('DOMContentLoaded', function () {
         keyIndex++
     }
 });
+
+new cursoreffects.rainbowCursor();
