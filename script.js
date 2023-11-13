@@ -37,6 +37,8 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             liDOM.style.backgroundColor = '#FFF0FF'
         }
+        // Remove link underline decoration
+        aDOM.style.textDecoration = 'none'
         aDOM.appendChild(liDOM)
         aDOM.href = links[key]
         ulDOM.appendChild(aDOM)
